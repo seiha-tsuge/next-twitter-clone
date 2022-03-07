@@ -11,6 +11,7 @@
     "format": "prettier --write 'src/**/*.{js,jsx,ts,tsx,json,css}'"
   },
   "dependencies": {
+    "@heroicons/react": "^1.0.6",
     "@mantine/core": "^3.6.12",
     "@mantine/hooks": "^3.6.12",
     "@mantine/next": "^3.6.12",

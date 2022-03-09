@@ -3,9 +3,9 @@ import React from 'react';
 
 import type { CenterProps as MantineCenterProps } from '@mantine/core';
 
-export const Center: React.VFC<MantineCenterProps<any>> = ({ children, sx, ...props }) => {
+export const Center: React.VFC<MantineCenterProps<'div'>> = ({ children, sx, ...props }) => {
   return (
-    <MantineCenter sx={() => ({ ...sx })} {...props}>
+    <MantineCenter component='div' sx={() => ({ ...sx })} {...props}>
       {children}
     </MantineCenter>
   );

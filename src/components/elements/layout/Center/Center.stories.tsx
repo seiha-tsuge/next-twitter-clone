@@ -3,7 +3,7 @@ import { ComponentStoryObj, ComponentMeta } from '@storybook/react';
 import { Center } from './Center';
 
 export default {
-  title: 'Center',
+  title: 'Elements/Layout/Center',
   component: Center,
   parameters: {
     controls: { expanded: true },
@@ -27,3 +27,9 @@ export const Default: Story = {
     </Center>
   ),
 };
+
+// export const Inline: Story = {
+//   args: {
+//     inline: true,
+//   },
+// };
